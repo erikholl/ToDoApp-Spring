@@ -1,10 +1,14 @@
 package be.intecbrussel.todoappspring.repository;
 
 import be.intecbrussel.todoappspring.model.ToDo;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
 
+@Repository
+@Primary
 public class ToDoDAOMock implements ToDoDAO {
     @Override
     public ToDo saveToDo(ToDo todo) {
