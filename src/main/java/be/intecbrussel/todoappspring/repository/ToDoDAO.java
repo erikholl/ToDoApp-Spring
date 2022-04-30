@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Optional;
 
 public interface ToDoDAO {
-    ToDo saveToDo(ToDo todo);
-    ToDo deleteToDo(ToDo todo);
-    Optional<ToDo> getToDo(ToDo todo);
+    ToDo saveToDo(ToDo toDo);
+    ToDo deleteToDo(ToDo toDo);
+    Optional<ToDo> getToDo(int toDo);
     List<ToDo> getToDo(String user);
 }

@@ -19,7 +19,7 @@ public class ToDoDAOHibernate implements ToDoDAO {
     }
 
     @Override
-    public Optional<ToDo> getToDo(ToDo todo) {
+    public Optional<ToDo> getToDo(int id) {
         return Optional.empty();
     }
 

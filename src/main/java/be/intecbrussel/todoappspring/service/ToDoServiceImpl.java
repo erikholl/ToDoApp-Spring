@@ -39,7 +39,7 @@ public class ToDoServiceImpl implements ToDoService {
     }
 
     @Override
-    public Optional<ToDo> getToDo(ToDo todo) {
+    public Optional<ToDo> getToDo(int id) {
         return Optional.empty();
     }
 

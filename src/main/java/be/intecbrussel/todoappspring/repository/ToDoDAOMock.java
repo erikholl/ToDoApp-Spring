@@ -12,21 +12,25 @@ import java.util.Optional;
 public class ToDoDAOMock implements ToDoDAO {
     @Override
     public ToDo saveToDo(ToDo todo) {
+        System.out.println("calling saveToDo in ToDoDAOMock");
         return null;
     }
 
     @Override
     public ToDo deleteToDo(ToDo todo) {
+        System.out.println("calling deleteToDo in ToDoDAOMock");
         return null;
     }
 
     @Override
-    public Optional<ToDo> getToDo(ToDo todo) {
+    public Optional<ToDo> getToDo(int id) {
+        System.out.println("calling getToDo in ToDoDAOMock");
         return Optional.empty();
     }
 
     @Override
     public List<ToDo> getToDo(String user) {
+        System.out.println("calling getToDo in ToDoDAOMock");
         return null;
     }
 }
