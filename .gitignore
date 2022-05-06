@@ -1,6 +1,11 @@
 HELP.md
 target/
+mvnw
+mvnw.cmd
+SpringToDo.pdf
+ToDoUML.drawio
 !.mvn/wrapper/maven-wrapper.jar
+.mvn/
 !**/src/main/**/target/
 !**/src/test/**/target/
 

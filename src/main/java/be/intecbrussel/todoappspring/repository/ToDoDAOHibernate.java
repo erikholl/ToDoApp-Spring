@@ -8,6 +8,7 @@ import java.util.Optional;
 
 @Repository
 public class ToDoDAOHibernate implements ToDoDAO {
+
     @Override
     public ToDo saveToDo(ToDo todo) {
         return null;
@@ -19,12 +20,17 @@ public class ToDoDAOHibernate implements ToDoDAO {
     }
 
     @Override
-    public Optional<ToDo> getToDo(int id) {
+    public Optional<ToDo> getToDoById(int id) {
         return Optional.empty();
     }
 
     @Override
-    public List<ToDo> getToDo(String user) {
+    public List<ToDo> getToDoByUser(String user) {
+        return null;
+    }
+
+    @Override
+    public List<ToDo> getAllToDos() {
         return null;
     }
 }
